@@ -1,0 +1,355 @@
+ .nav-bar-all{
+  background-image: url(../images/slideshow-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+ }
+ .nav-bar-all .nav-list ul {
+  list-style: none;
+ }
+ .nav-bar-all .nav-list ul a{
+  text-decoration: none;
+  color: white;
+ }
+ .titel-first h1{
+  top: 230px;
+  color: white;
+  font-size: 64px;
+ }
+ .nav-bar-all .nav-list .iteam-list  :hover {
+  color:rgb(244, 80, 81) ;
+ }
+ .nav-bar-all .nav-list .iteam-list2 a{
+  color:rgb(244, 80, 81) ;
+ }
+
+
+
+
+.w-70 {
+  width: 70%;
+}
+.title-shadow {
+  position: relative;
+}
+.title-shadow::before {
+  content: "A";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.title-shadow2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+/* end section 1 */
+.bg-photo{
+    background-image: url(../images/slideshow-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+.title-shadow-team {
+    position: relative;
+  }
+  .title-shadow-team::before {
+    content: "O";
+    color: rgba(0, 0, 0, 0.212);
+    font-size: 70px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    z-index: -1;
+  }
+  .title-shadow-team2::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 300%);
+  }
+  .w-85{
+    width: 85%;
+    margin: auto;
+  }
+.projects ul{
+  list-style: none;
+}
+.projects a{
+  color: black  ;
+}
+.projects a:hover{
+  color: rgb(244, 80, 81);
+  border: 1px rgb(244, 80, 81) solid ;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+.projects .active{
+  color: rgb(244, 80, 81);
+  border: 1px rgb(244, 80, 81) solid ;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+.Recent {
+  position: relative;
+}
+.Recent::before {
+  content: "R";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.Recent2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+.ideas a{
+  color: white ;
+}
+.btn-ideas{
+background-color: rgb(244, 80, 81);
+color: rgb(244, 80, 81);
+border: 1px rgb(244, 80, 81) solid ;
+padding: 10px 15px;
+}
+
+.services-shadow {
+  position: relative;
+}
+.services-shadow::before {
+  content: "S";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.services-shadow2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+.services .mask .fa-laptop {
+  color:rgb(244, 80, 81) ;
+}
+
+.client-shadow {
+  position: relative;
+}
+.client-shadow::before {
+  content: "C";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.client-shadow2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+.happy-all{
+  height: 300px;
+}
+.happy .card-happy h3{
+  padding: 3px;
+  font-size: 48px;
+}
+.happy .card-happy .color{
+  color:rgb(244, 80, 81) ;
+}
+.happy-all .happy .card-happy .happy-color{
+  color: #fff;
+}
+.blog-shadow {
+  position: relative;
+}
+.blog-shadow::before {
+  content: "B";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.blog-shadow2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+.services .mask  {
+  color:rgb(244, 80, 81) ;
+}
+.blog-a{
+  text-decoration: none;
+  color:rgb(244, 80, 81) ;
+}
+.imge-card{
+  position: relative;
+}
+.slide-photo{
+position: absolute;
+top: 20px;
+right: 0;
+background-color: rgb(244, 80, 81);
+color: white;
+padding: 0px 5px;
+}
+.Price-all{
+  background-image: url(../images/slideshow-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150vh;
+  background-attachment: fixed;
+}
+.get-shadow {
+  position: relative;
+}
+.get-shadow::before {
+  content: "G";
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: -1;
+}
+.get-shadow2::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+.big-font{
+  font-size: 54px;
+  color:  rgb(244, 80, 81);
+}
+.secand-get{
+  position: relative;
+}
+
+.secand-get ,.first-get {
+  position: relative;
+  margin-bottom: 20px;
+ }
+ .first-get::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 1px;
+  background-color: #00000018;
+ }
+ .secand-get::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 1px;
+  background-color: #00000018;
+ }
+ .btn{
+  background-color: rgb(244, 80, 81);
+  padding: 10px 20px;
+  margin-top: 20px;
+ }
+ input{
+  padding: 10px 30px;
+width: 100%;
+line-height: 5px;
+margin: 15px 0px;
+border-radius: 3px;
+border: 2px solid #eee;
+transition: border-color 0.15s ease-in;
+ }
+ input:hover{
+  color:rgb(244, 80, 81) !important ;
+  border-color:rgb(244, 80, 81) !important ;
+ }
+ .bg-map{
+  /* background-image: url(../images/dotted-map.png);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; */
+  background-color: rgb(22, 22, 22);
+  height: 80vh; 
+
+ }
+ .arrow-bg-map{
+  background-color:rgba(244, 80, 80, 0.555) ;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ }
+ .bg-map .container a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.212);
+ }
+ .bg-map .container .color-tranc a{
+border: 1px solid white;
+ }
+ .color-rgba{
+  color: rgba(255, 255, 255, 0.212);
+ }
+ .bg-end{
+  background-color: black;
+  height: 20vh;
+ }
+
+
+
+
+
